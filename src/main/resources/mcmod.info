@@ -1,0 +1,17 @@
+[
+{
+"modid": "woolmod",
+"name": "MultiWool",
+"description": "Muti-Colours of all the wool!",
+"version": "1.0",
+"credits": "Created by Khairex",
+"logoFile": "MultiWool.png",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "Khairex" ],
+"parent":"",
+"screenshots": [],
+"dependencies": ["mod_MinecraftForge"]
+}
+]

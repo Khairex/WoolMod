@@ -9,7 +9,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraft.item.Item;
 import java.util.Random;
-import net.minecraft.inventory.Container;
 
 public class BlockWool extends woolblock
 {
@@ -44,6 +43,8 @@ public class BlockWool extends woolblock
 			}
 	}
 
+
+
 	@Override
 	public void onNeighborBlockChange(World world, int i, int j, int k, Block b)
 	{
@@ -53,7 +54,6 @@ public class BlockWool extends woolblock
 		}
 
 	}
-
 
 	@Override
 	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)

@@ -4,7 +4,6 @@ package com.khairex.woolmod.init;
 import com.khairex.woolmod.block.BlockWool;
 import com.khairex.woolmod.block.woolblock;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
 
 public class ModBlocks
 {
