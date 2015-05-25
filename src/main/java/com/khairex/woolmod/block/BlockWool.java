@@ -17,6 +17,7 @@ public class BlockWool extends woolblock
 	public BlockWool(int val)
 	{
 		super();
+		boolean canChange = true;
 		state = val;
 		setHardness(0.8F);
 		setStepSound(soundTypeCloth);
@@ -42,7 +43,6 @@ public class BlockWool extends woolblock
 				p_149726_1_.scheduleBlockUpdate(p_149726_2_,p_149726_3_,p_149726_4_, this,0 );
 			}
 	}
-
 
 
 	@Override

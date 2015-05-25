@@ -2,6 +2,7 @@ package com.khairex.woolmod;
 
 import com.khairex.woolmod.init.ModBlocks;
 import com.khairex.woolmod.init.ModItems;
+import com.khairex.woolmod.init.Recipes;
 import com.khairex.woolmod.proxy.IProxy;
 import com.khairex.woolmod.refrence.Reference;
 import cpw.mods.fml.common.Mod;
@@ -31,7 +32,7 @@ public class woolmod
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-
+		Recipes.init();
 	}
 
 	@Mod.EventHandler
