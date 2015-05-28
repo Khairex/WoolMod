@@ -140,3 +140,6 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+/out
+/eclipse
